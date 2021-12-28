@@ -22,8 +22,8 @@ public class MultilevelInheritance {
     public static void main(String args[]) {
         BabyDog d = new BabyDog();
         d.weep();
-        d.bark();
-        d.eat();
+        d.bark(); // achieved through multilevel inheritance from Dog class
+        d.eat(); // achieved through multilevel inheritance from Animal class
     }
 }
 
